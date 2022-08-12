@@ -1,0 +1,19 @@
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.color_orenge {
+  color: #ee5728 !important;
+}
+
+header .btn_open_side::after, header .btn_open_srh::after,
+header .link_cart::after, header .link_mypage::after {
+  background-image: url(../imgs/common_sp.png);
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+}
